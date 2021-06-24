@@ -1,0 +1,21 @@
+{
+  "name": "pig-game",
+  "version": "1.0.0",
+  "description": "Pig Game Application",
+  "default": "script.js",
+  "dependencies": {
+    "core-js": "^3.14.0",
+    "parcel": "^1.12.4",
+    "regenerator-runtime": "^0.13.7",
+    "sass": "^1.35.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-nightly.724"
+  },
+  "scripts": {
+    "start": "parcel script.js",
+    "build": "parcel build script.js --dist-dir ./dist"
+  },
+  "author": "Adam Palmer",
+  "license": "ISC"
+}
